@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Personal Portfolio Website</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/afc31bf882.js" crossorigin="anonymous"></script>
+</head>
+<body>
+</html>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Screenshot_2024-09-21_211625-removebg-preview.png" class="logo">
+                <ul id="sidemenu">
+                    <li> <a href ="#header"> Home </a> </li>
+                    <li> <a href ="#about"> About </a> </li>
+                    <li> <a href ="#services"> Skills</a> </li>
+                    <li> <a href ="#contact"> Contact </a> </li> 
+                    <span></span>
+                    <i class="fa-solid fa-circle-xmark"  onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+            <p class="course">Aspiring AI & ML Engineer</p>
+            <h1>Hii!!, I'm <span>k jeevan kumar</span><br> From india </h1>  
+            <a class="collage">Currently Studying at Malla Reddy Institute <br> of Engineering and Technology</a>  
+          </div>
+        </div>
+    </div>
+    <!-----------------about--------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                <img src="images/photo22.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"> About Me</h1>
+                    <p> I am an Aspiring AI & ML engineer with a passion for innovation and a relentless drive to excel in the tech industry. As a highly motivated individual,
+                         I thrive on the challenge of solving complex problems and embracing the latest technological advancements. My journey in Computer Science has been marked by a 
+                        deep commitment to learning and exploration, continuously broadening my expertise in both front-end and back-end development.
+                        Currently, I am a dedicated 3rd-year B.Tech student at Mallareddy Institute of Engineering and Technology,  Computer Science in specialization artificial intelligence (AI) and machine learning (ML) . My academic journey has 
+                        equipped me with a robust foundation in programming and web technologies. I have hands-on experience teaching C and C++ at a Linux computer coaching center, which has honed
+                         my ability to communicate complex concepts effectively. My participation in hackathons has further sharpened my skills, earning recognition for innovative 
+                        solutions and solidifying my problem-solving capabilities. </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Score</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                       <div class="tab-contents active-tab"id="skills">
+                        <ul>
+                            <li><span> B.Tech (Current)</span><br>Pursuing with a CGPA of 7.89</li>
+                            <li><span>Intermediate</span><br>Completed with a percentage of 69%</li>
+                            <li><span>Secondary Education (Class 10)</span><br>Graduated with an outstanding score of 95%</li>
+                        </ul>
+                       </div> 
+                       <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span> 2023 - Present</span><br>Web Development Internship :
+                                Currently undertaking a Web Development Internship, where I am gaining hands-on experience in full stack development, enhancing my skills in both front-end and back-end technologies.</li>
+                            <li><span> 2022-2023</span><br>I successfully participated in a hackathon, where my project was selected, showcasing my 
+                                ability to innovate and solve 
+                                real-world problems under competitive conditions.</li>
+                            <li><span>2021-2022</span><br>I have experience teaching C and C++ programming at a Linux computer coaching center, 
+                                where I guided students in understanding core programming concepts 
+                                and developing their coding skills in a Linux environment</li>
+                        </ul>
+                       </div> 
+                       <div class="tab-contents"id="education">
+                        <ul>
+                            <li><span> collage-current</span><br>B.Tech in Computer Science (3rd Year)
+                                Mallareddy Institute of Engineering and Technology, 2022 - Present</li>
+                            <li><span> Intermediate</span><br> Viswasanthi Junior Collage</li>
+                            <li><span>Secondary Education</span><br>Z.P.H.S Bhairapuram </li>
+                        </ul>
+                       </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+<!----------------services---------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title"> My Skills</h1>
+        <div  class="services-list">
+            <div>
+                <i class="fa-solid fa-c"></i>
+                <h2> C and C++</h2>
+            </div>
+            <div>
+                <i class="fa-brands fa-html5"></i>
+                <h2> HTML</h2>
+
+            </div>
+            <div><i class="fa-brands fa-js"></i>
+                <h2> javascript</h2>
+            </div>
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2> python</h2>
+                
+            </div>
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>java</h2>
+               
+            </div>
+            <div>
+                <i class="fa-brands fa-react"></i>
+                <h2>react js</h2>
+                
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>my sql</h2>
+                
+            </div>
+            <div>
+                <i class="fa-brands fa-node"></i>
+                <h2>node js</h2>
+            
+            </div>
+
+        </div>
+    </div>
+</div>
+<!----------------contact-------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>kjeevankumar944@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>7816006648</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/share/eRo9g7nvwr22zTnA/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/k-jeevan-kumar-5333b32b8"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/k_jeevan_kumar_944?igsh=ZHB0Ym14MDc3aGlq"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href= "K JEEVAN KUMAR RESUME.pdf" download class="btn btn2">Download Resume</a>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+               <input type="text" name="Name" placeholder="Your Name" required>
+               <input type="email" name="Email" placeholder="your Email" required>
+               <textarea name="Message" rows="6" placeholder="your Message"></textarea>
+               <button type="submit" class="btn btn2">Submit</button>
+          
+        
+            </form>  
+            <span id="msg"></span>
+        </div> 
+        </div>
+    </div>
+    <div class="copyright">
+        <p>G1 @ Portfolio. made with <i class="fa-solid fa-heart"></i> by jeevan Kumar</p>
+    </div>
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    </script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0"; 
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px"; 
+    }
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwQMslXxiNkG5MkTbrXjfFFDTMXepFX9JWVE9ncly-30w6FnJZYGF2MgvSc03svgN7ukg/exec'
+  const form = document.forms['submit-to-google-sheet']
+  constmsg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+          msg.innerHTML = "Message sent successfully"
+          setTimeout(function(){
+            msg.innerHTML= ""
+          },5000)
+          form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
+    
